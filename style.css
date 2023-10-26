@@ -1,0 +1,64 @@
+body {
+	background-color: #D99185;
+	color: #EDDDD4;
+	font-family: times;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+h2 {
+	color: #772E25;
+	font-family: times;
+	font-size: 30px;  /* or 200pt, depending on what you meant */
+}
+
+h1 {
+	color: #283D3B;
+	font-family: times;
+	font-size: 70px;  /* or 200pt, depending on what you meant */
+}
+
+a {
+	color: #283d3b;
+	font-family: times;
+}
+
+a:hover {
+	color: #197278;	
+}
+
+.img-circle {
+	width: 150px;
+    height: 150px;
+    border-radius:50%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
+
+head {
+	font-family: ;
+}
+
+div {
+	background: #C44536;
+	border: 2px solid black;
+	margin: 30px auto; 
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: 3px 3px 3px #197278;
+	text-align: center;
+	width: 600px;  /* Changement ici */
+}
+
+ul {
+    list-style: none; /* Enlève les puces */
+    padding-left: 0;  /* Enlève le padding */
+}
+
+ul li {
+    display: inline-block; /* Affiche chaque élément de liste horizontalement */
+    margin-right: 10px;   /* Espace entre chaque icône; ajustez selon vos besoins */
+}
